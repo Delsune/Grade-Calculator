@@ -34,10 +34,10 @@ def get_grade():
 def calculation():
     final_grade = round(sum(entered_grades)/entered_amount, 2)
 
-    statement4 = Label(text="Your average grade is ")
-    statement5 = Label(text=final_grade)
-    statement4.place(x=5, y=235)
-    statement5.place(x=157, y=235)
+    statement3 = Label(text="Your average grade is ")
+    statement4 = Label(text=final_grade)
+    statement3.place(x=5, y=235)
+    statement4.place(x=157, y=235)
 
 root = Tk()
 root.title('Grade Calculator')
