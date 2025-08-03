@@ -12,7 +12,7 @@ def get_amount():
         entered_amount = int(amount_input.get("1.0", "end-1c"))
 
     except ValueError:
-        error_msg = Label(root, text="That value is not an interger...")
+        error_msg = Label(root, text="That value is not an integer...")
         error_msg.place(x=5, y=65)
         error_msg.after(3000, lambda: error_msg.destroy())
 
@@ -27,7 +27,7 @@ def get_grade():
             entered_grades.append(entering_grades)
 
     except ValueError:
-        error_msg = Label(root, text="That value is not an decimal...")
+        error_msg = Label(root, text="That value is not a decimal...")
         error_msg.place(x=5, y=170)
         error_msg.after(3000, lambda: error_msg.destroy())
 
