@@ -43,7 +43,7 @@ root = Tk()
 root.title('Grade Calculator')
 root.geometry('650x325+50+50')
 
-statement = Label(text="How many courses/graded course materials do you have? (Please enter an integer value.)")
+statement = Label(text="How many courses do you have? (Please enter an integer value.)")
 amount_input = Text(root, height=1, width=5)
 amount_enter = Button(root, text="Enter", command=lambda: get_amount())
 
@@ -51,7 +51,7 @@ statement.place(x=0, y=0)
 amount_input.place(x=5, y=33.5)
 amount_enter.place(x=55, y=30)
 
-statement2 = Label(text="What grade (as a decimal) did you receive on each course/graded course material?")
+statement2 = Label(text="What grade (as a decimal) did you receive on each course?")
 grade_input = Text(root, height=1, width=5)
 grade_enter = Button(root, text="Enter", command=lambda: get_grade())
 
