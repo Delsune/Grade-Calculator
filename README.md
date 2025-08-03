@@ -1,4 +1,4 @@
-A simple grade calculator for finding average GPAs and course grades.
+A simple grade calculator for finding average GPAs (using main.py or main.exe) and course grades (using an inevitable main2.py or main2.exe).
 
 Guide:
 1. When entering numbers into each box, hit the "Enter" button next to the input boxes to actually record the numbers in the app.
