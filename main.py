@@ -43,7 +43,7 @@ root = Tk()
 root.title('Grade Calculator')
 root.geometry('650x325+50+50')
 
-statement = Label(text="How many courses/graded course materials do you have? (Please enter and integer value.)")
+statement = Label(text="How many courses/graded course materials do you have? (Please enter an integer value.)")
 amount_input = Text(root, height=1, width=5)
 amount_enter = Button(root, text="Enter", command=lambda: get_amount())
 
