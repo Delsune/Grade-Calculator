@@ -1,9 +1,9 @@
-A simple grade calculator for finding average GPAs (using main.py or main.exe) and course grades (using an inevitable main2.py or main2.exe).
+A simple grade calculator for finding average GPAs (using main.py or main.exe) and course grades (using main2.py or main2.exe).
 
 Guide:
 1. When entering numbers into each box, hit the "Enter" button next to the input boxes to actually record the numbers in the app.
 2. If you try entering more grades or weightings than courses/course materials, the excess grades or weightings will not be recorded, so you have to increase the number of courses/course materials first.
-3. Average GPAs are automatically rounded to 2 decimal places, while average course grades will be automatically rounded to the nearest whole number.
+3. Average GPAs and average course grades are automatically rounded to 2 decimal places.
 
 Additional statement: If you encounter an issue with this program, please let me know by submitting it to the "Issues" tab of this repository.
 
