@@ -9,6 +9,10 @@
 *.log
 *.log.*
 *.sig
+venv
+dist
+build
+*.spec
 
 pkg/
 src/
