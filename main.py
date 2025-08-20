@@ -54,6 +54,14 @@ def calculation():
     statement.place(x=5, y=340)
 
 
+def clearLists():
+    global entered_grades
+    global entered_weightings
+
+    entered_grades.clear()
+    entered_weightings.clear()
+
+
 def message(text, y):
     msg = tk.Label(root, text=text)
     msg.place(x=5, y=y)
@@ -80,5 +88,8 @@ weighting_input = labelAndButton("What is the weighting (as a decimal) of each d
 
 calculate = tk.Button(root, text="When you have entered all of your grades, press me to calculate your average grade.", command=lambda: calculation())
 calculate.place(x=5, y=305)
+
+clear = tk.Button(root,  text="Press me to clear your entered grades and weightings.",  command=lambda: clearLists())
+clear.place(x=5,  y=375)
 
 root.mainloop()
